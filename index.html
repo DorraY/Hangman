@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Hangman</title>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type" name='author' content="dorra-youssef">
+        <link rel=STYLESHEET href="styles.css" type="text/css">
+        <style type="text/css">@import url(style.css);</style>
+    </head>
+    <body style="font-family: Verdana, Geneva, Tahoma, sans-serif ; background-image: url(media/start-background.jpg) ; color: wheat">
+            <audio controls autoplay style="visibility: hidden ; float: right;">
+                <source src="media/Muse - Map of the Problematique .ogg" type="audio/ogg">
+                <source src="media/Muse - Map of the Problematique .mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio> 
+        <div id='info'>
+            <h2 id="nation"></h2>
+            <h2 id='city'></h1>
+            <h2 id='ip'></h1>
+            <h2 id="thanks"></h2>
+        </div>
+        <div id="game">    
+            <h3>Welcome to the game!</h3>
+            <h3 id="indication">Please press any button to get started!</h3>
+            <h2 >You are currently <span id="status" style="color: purple"></span> </h2> 
+            <p>You have <b><span id='remaining-guess' style="font-style: italic">??</span></b> remaining-guesses</p>
+            <p >Your current progress <b><span id="word" style="font-style: italic">??</span></b></p>
+            <p>Letters you have guessed so far <b><span id="guessed-letters" style="font-style: italic">??</span></b></p>
+        </div>
+        <img  id="picture" >
+        <script src="requests.js"></script>
+        <script src="hangman.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+
+#info {  color: #fff; text-align: center;-webkit-animation: glow 1s ease-in-out infinite alternate;  -moz-animation: glow 1s ease-in-out infinite alternate;  animation: glow 1s ease-in-out infinite alternate;}
+@-webkit-keyframes glow {
+from {
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60000, 0 0 40px #e60000, 0 0 50px #e60000, 0 0 60px #e60000, 0 0 70px #e60000; }
+to {
+text-shadow: 0 0 20px #fff, 0 0 30px #4dff4d, 0 0 40px #4dff4d, 0 0 50px #ffed4d, 0 0 60px #ffed4d, 0 0 70px #ffed4d, 0 0 80px #ffed4d;
+}
+}
+div {float: right;margin-top: 50px}
+#game {float: left}
